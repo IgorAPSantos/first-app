@@ -1,9 +1,10 @@
 import './styles.css';
-
+import Counter from '../../Components';
 function Main() {
   return (
     <div className="container-main">
-      <h1>Hello World</h1>
+      <Counter title="Contador 1" />
+      <Counter title="Contador 2" initialValue={10} />
     </div>
   );
 }
